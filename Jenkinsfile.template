@@ -6,9 +6,6 @@ pipeline {
       }
     triggers {
         pollSCM '*/5 * * * *'
-                sh '''
-                echo "Testing Cron Job"
-                '''
     }
     stages {
         stage('Build') {
