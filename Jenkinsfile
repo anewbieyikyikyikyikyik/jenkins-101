@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                yum install -r requirements.txt
+                apt install -r requirements.txt
                 '''
             }
         }
