@@ -1,2 +1,2 @@
 
-print("Hello world, Chia Testing Cron Job")
+print("Hello world, Chia Testing Cron Job, testing2")
